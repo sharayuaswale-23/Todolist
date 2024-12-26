@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.main-cont{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo-main{
+    width: 75%;
+}
+.list_cont{
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.label{
+    background-color: rgb(86, 151, 189);
+    padding: 10px;
+    width: 70%;
+    margin-left: 20px;
+    border-radius: 8px;
+    border-left: 5px solid rgb(41, 78, 99);
+    display: flex;
+    justify-content: space-between;
+}
+.deletebutton{
+    background-color: transparent;
+    border: none;
+}
+.deletebutton:focus{
+    border: none;
+    outline: none;
+}
+.checked{
+    text-decoration: line-through;
+}
